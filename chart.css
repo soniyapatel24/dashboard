@@ -1,0 +1,124 @@
+
+
+  @media{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+ } 
+  body{
+    background: #dfe9f5;
+  }
+  .container{
+    display: flex;
+  }
+  nav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: #1edad0;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,1);
+    border-radius: 10px;
+  }
+  
+  .logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  .logo span{
+    font-family: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  a{
+    position: relative;
+    color: rgb(85 83 83);
+    font-size: 14px;
+    display: table;
+    width: 280px;
+    padding: 10px;
+
+  }
+  nav .fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+  }
+   .nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+  }
+  a:hover{
+    background: #3187d8;
+  
+  }
+  .logout{
+    position:  absolute;
+    margin: 0;
+  }
+ 
+ .bar-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 80px; /* Space between bars */
+  height: 300px; 
+  width: 600px;
+  border-left: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 10px;
+} 
+
+/* Individual bar */
+.bar {
+  width: 50px;
+  background-color: #af4c86;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  justify-content: center;
+}
+/* Label container */
+.labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  width: 600px;
+} 
+
+/* Individual label */
+ .label {
+  width: 50px;
+  text-align: center;
+  font-size: 14px; 
+ }
+ .chart{
+  height: 50%;
+  width: 120%;
+  text-align: center;
+  background: #3da4f8;
+  margin-top: 30%;
+  margin-left: 50%;
+  border-radius: 10px
+
+ }
+ .box{
+  margin-left: 10%;
+  margin-top: 5%;
+ }
